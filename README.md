@@ -49,6 +49,12 @@ The constants of 10 % and 25 % substracted for high vegetation represent estimat
 
 ### Installation
 
+* The Python GDAL package version must match the GDAL binaries version. Be sure to use the same version printed from:
+```python I'm A tab
+gdalinfo --version
+```
+then use the same version for example in this situation i got "gdal==3.4.3"
+
 * Create a virtual Conda environment with the required Python version and requirements file:
 ```python I'm A tab
 conda create --name gwenv python=3.8
